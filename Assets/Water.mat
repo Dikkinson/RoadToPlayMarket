@@ -40,7 +40,7 @@ Material:
     - _QueueOffset: 0
     - _Smoothness: 0.8
     - _Transparancy: 1
-    - _Wave_Height: 4.15
+    - _Wave_Height: 4
     - _Wave_Speed: 0.29
     m_Colors:
     - _Deep: {r: 0.16967776, g: 0.602388, b: 0.8773585, a: 0}

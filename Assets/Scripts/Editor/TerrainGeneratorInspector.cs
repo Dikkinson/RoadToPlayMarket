@@ -27,6 +27,10 @@ public class TerrainGeneratorInspector : Editor
       {
          terrain.DestroyProps();
       }
+      if (GUILayout.Button("Delete Water"))
+      {
+         terrain.DestroyWater();
+      }
       GUILayout.EndHorizontal();
       base.OnInspectorGUI();
    }
