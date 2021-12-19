@@ -24,7 +24,7 @@ public class TransparentObjects : MonoBehaviour
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
         RaycastHit[] hits;
-        hits = Physics.RaycastAll(transform.position, fwd, characterDistance, targetLayers);
+        hits = Physics.RaycastAll(transform.position, fwd, characterDistance, targetLayers, QueryTriggerInteraction.Ignore);
 
         if (hits.Length > 0)
         {   
